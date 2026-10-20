@@ -36,7 +36,7 @@ const MainLayout = () => {
       }}>
         <div>Insurance Claim Management System • Enterprise Cloud DevOps Architecture</div>
         <div style={{ marginTop: '0.25rem', color: 'var(--text-secondary)' }}>
-          Spring Boot 3 • React 18 • MongoDB • Terraform • Ansible • Jenkins • Kubernetes
+          Insurance Claim Management System • Enterprise Cloud DevOps Architectur
         </div>
       </footer>
     </div>

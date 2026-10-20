@@ -67,7 +67,7 @@ export const LoginPage = () => {
           </div>
           <h1>ShieldFlow Insurance</h1>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginTop: '0.25rem' }}>
-            Enterprise Claim Management System
+            Insurance Claim Management System
           </p>
         </div>
 
@@ -143,7 +143,7 @@ export const LoginPage = () => {
                   type="text"
                   className="form-input"
                   value={fullName}
-                  placeholder="e.g. John Doe"
+                  placeholder="e.g. Malsha Nethnuwan"
                   onChange={(e) => setFullName(e.target.value)}
                   required
                 />
@@ -193,7 +193,7 @@ export const LoginPage = () => {
             style={{ width: '100%', marginTop: '0.75rem', padding: '0.75rem' }}
             disabled={loading}
           >
-            {loading ? 'Processing...' : (isRegister ? 'Create Account' : 'Sign In with JWT')}
+            {loading ? 'Processing...' : (isRegister ? 'Create Account' : 'Sign In')}
           </button>
         </form>
 
